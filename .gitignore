@@ -1,0 +1,14 @@
+/build/
+/third_party/
+/results/
+/logs/
+/objects/
+*.gds
+*.gds.gz
+*.oas
+*.odb
+*.spef
+*.v.gz
+*.log
+__pycache__/
+*.pyc
