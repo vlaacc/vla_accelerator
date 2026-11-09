@@ -10,7 +10,7 @@
 # Only the top-level port list matters here; the netlist instantiates the same
 # srambank_* macros as the RTL and uses the same ASAP7 standard cells.
 #
-# Paths come from scripts/env.sh (SPARSEDSA_ROOT / SRAM_* / VIEWS / LUT_NETLIST).
+# Paths come from scripts/env.sh (VLA_ACCEL_ROOT / SRAM_* / VIEWS / LUT_NETLIST).
 export DESIGN_NICKNAME = st_band20
 export DESIGN_NAME     = sparse_ternary_top
 export PLATFORM        = asap7

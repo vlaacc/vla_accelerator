@@ -1,4 +1,4 @@
-# SparseDSA
+# VLA Accelerator
 
 RTL and an RTL-to-GDSII flow for a sparse-ternary / INT8 accelerator built for
 compressed FFN and attention matmuls in vision-language-action models.
@@ -46,7 +46,7 @@ Process: ASAP7 predictive 7.5T RVT/TT.
 ## Repository structure
 
 ```
-SparseDSA/
+vla_accelerator/
 ├── rtl/                              # Verilog sources
 │   ├── st_soc_top.v                  # chip top: CSR + both engines
 │   ├── config_regs.v                 # AXI4-Lite CSR file

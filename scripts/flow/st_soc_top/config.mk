@@ -4,12 +4,12 @@
 # their RTL is deliberately NOT read here.  The vector unit is not a top-level
 # macro -- it is already abstracted inside int8_engine.
 #
-# Paths come from scripts/env.sh (SPARSEDSA_ROOT / SRAM_* / VIEWS).
+# Paths come from scripts/env.sh (VLA_ACCEL_ROOT / SRAM_* / VIEWS).
 export DESIGN_NICKNAME = st_soc_top
 export DESIGN_NAME     = st_soc_top
 export PLATFORM        = asap7
 
-export SRC_DIR       = $(SPARSEDSA_ROOT)/rtl
+export SRC_DIR       = $(VLA_ACCEL_ROOT)/rtl
 export VERILOG_FILES = $(SRC_DIR)/st_soc_top.v \
                        $(SRC_DIR)/config_regs.v \
                        $(SRC_DIR)/sram_7nm/sram_act_bank_int8.v \

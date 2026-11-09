@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# RTL-to-GDSII for the SparseDSA accelerator on ASAP7.
+# RTL-to-GDSII for the VLA accelerator on ASAP7.
 #
 #   1. LUT block   (st_band20)    -> LEF/LIB abstract + merged GDS
 #   2. INT8 block  (int8_engine)  -> LEF/LIB abstract + merged GDS

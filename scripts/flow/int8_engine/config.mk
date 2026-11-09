@@ -2,12 +2,12 @@
 # banks and the vector epilogue.  Hardened as a block so the chip top does not
 # have to flatten the array or route its 9,200 + 8,192-bit buses.
 #
-# Paths come from scripts/env.sh (SPARSEDSA_ROOT / SRAM_* / VIEWS).
+# Paths come from scripts/env.sh (VLA_ACCEL_ROOT / SRAM_* / VIEWS).
 export DESIGN_NICKNAME = int8_engine
 export DESIGN_NAME     = int8_engine
 export PLATFORM        = asap7
 
-export SRC_DIR       = $(SPARSEDSA_ROOT)/rtl
+export SRC_DIR       = $(VLA_ACCEL_ROOT)/rtl
 export VERILOG_FILES = $(sort $(wildcard $(SRC_DIR)/*.v)) \
                        $(sort $(wildcard $(SRC_DIR)/sram_7nm/*.v))
 export VERILOG_INCLUDE_DIRS = $(SRC_DIR)

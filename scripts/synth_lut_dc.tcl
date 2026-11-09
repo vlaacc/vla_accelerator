@@ -12,11 +12,11 @@
 # link_library / search_path.  If it is unset, the libraries already loaded in
 # the session are used.
 
-if {![info exists ::env(SPARSEDSA_ROOT)]} {
+if {![info exists ::env(VLA_ACCEL_ROOT)]} {
     error "source scripts/env.sh first"
 }
 
-set SRC $::env(SPARSEDSA_ROOT)/rtl
+set SRC $::env(VLA_ACCEL_ROOT)/rtl
 set OUT [file dirname $::env(LUT_NETLIST)]
 file mkdir $OUT
 
